@@ -616,7 +616,7 @@ Module.directive('dateTime', ['$compile', '$document', '$filter', 'dateTimeConfi
         });
       }
 
-      element.bind('focus', showPicker);
+      element.bind('focus click', showPicker);
       element.bind('blur', clear);
     }
   };
