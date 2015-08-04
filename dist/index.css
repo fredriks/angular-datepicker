@@ -221,3 +221,18 @@
   background: #eeeeee;
   cursor: pointer;
 }
+@media screen and (max-width: 480px) {
+    [date-picker-wrapper] {
+        position: fixed;
+        top: 15%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .date-picker-date-time {
+        position: static;
+        display: inline-block;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    }
+}

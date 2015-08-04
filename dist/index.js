@@ -608,7 +608,7 @@ Module.directive('dateTime', ['$compile', '$document', '$filter', 'dateTimeConfi
           container.append(picker);
 //          this approach doesn't work
 //          element.before(picker);
-          picker.css({top: element[0].offsetHeight + 'px', display: 'block'});
+          picker.css({top: element[0].offsetHeight + 'px'});
         }
 
         picker.bind('mousedown', function (evt) {
